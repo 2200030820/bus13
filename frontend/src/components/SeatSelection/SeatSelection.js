@@ -5,7 +5,7 @@ export default function SeatSelection() {
     const [name, setName] = useState([])
     const [arrowDown, setArrowDown] = useState(false)
     const [gender, setGender] = useState([])
-    const [reservedSeat, setReservedSeat] = useState(["1A", "2A", "2B", "3B", "4A", "5C", "6A", "7B", "7C", '8B', "9B", "9C"])
+    const [reservedSeat, setReservedSeat] = useState([ "2A", "2B", "3B", "4A", "5C", "6A", "7B", "7C", '8B', "9B", "9C"])
     const [seatNumber, setSeatnumber] = useState([])
     // const [passengers, setPassengers] = useState([])
     // useEffect(()=>{
@@ -91,8 +91,8 @@ export default function SeatSelection() {
                             <ol className="cabin fuselage">
                                 <li className="row row--1">
                                     <ol className="seats" type="A">
-                                        <li className="seat">
-                                            <input type="checkbox" disabled value="1A" id="1A" />
+                                    <li className="seat">
+                                            <input type="checkbox" id="1A" value="1A" />
                                             <label htmlFor="1A">1A</label>
                                         </li>
                                         <li className="seat">

@@ -3,9 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Kommunicate from '@kommunicate/kommunicate-chatbot-plugin';
 
-Kommunicate.init("26bfc31437635a6f4b16171d8bd21e148")
 
 ReactDOM.render(
     <App />

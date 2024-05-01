@@ -39,13 +39,7 @@ export default function LogOrsign({ history }) {
                             <div className="form-area login-form">
                                 <div className="form-content">
                                     <h2>Login</h2>
-                                    <p>you chose the right option</p>
-                                    <ul>
-                                        <li><a href="/#" className="facebook"><FaFacebookF /></a></li>
-                                    </ul>
-                                    <ul>
-                                        <li><a href="/#" className="twitter"><FaTwitterSquare /></a></li>
-                                    </ul>
+                                    
                                 </div>
                                 <div className="form-input">
                                     <h2>Enter Credentials</h2>

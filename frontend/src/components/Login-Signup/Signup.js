@@ -7,23 +7,7 @@ export default function Signup({ history }) {
     const handleChangeEvent = (e, field) => {
         let fieldValue = e.target.value;
         setnewUser({ ...newUser, [field]: fieldValue });
-        // if (field === 'email') {
-        //     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-        //     if (fieldValue.match(mailformat)) {
-        //         setnewUser({ ...newUser, [field]: fieldValue })
-        //         return true
-        //     } else {
-        //         alert("You have entered an invalid email address!");
-        //         return false
-        //     }
-        // } else if (field === 'password') {
-        //     var passwordFormat = /^[A-Za-z]\w{7,14}$/;
-        //     if (fieldValue.match(passwordFormat)) {
-        //         setnewUser({ ...newUser, [field]: fieldValue })
-        //         return true
-        //     }else{
-        //         alert("Input Password and Submit [7 to 15 characters which contain only characters, numeric digits, underscore and first character must be a letter]")
-        //     }
+
     };
 
     // sign in
@@ -48,13 +32,8 @@ export default function Signup({ history }) {
                         <div className="form-container-in" > </div>
                         <div className="row sgnUp " >
                             <div className="col-md-6 right-divider pdding" >
-                                <h3 className="lead-text mn-txt" > Join Us with Social </h3>
-                                <div className="icon-soc-fb" >
-                                    <FaFacebookF />
-                                </div>
-                                <div className="icon-soc-tw" >
-                                    <FaTwitterSquare />
-                                </div>
+                                <h3 className="lead-text mn-txt" > NEW USER REGISTRATION</h3>
+                                
                             </div>
                             <div className="left-divider" >
                                 <div className="col-md-6" >

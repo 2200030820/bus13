@@ -144,7 +144,7 @@ export default class App extends React.Component {
                                     className='frm-ctrl'
                                     placeholder='Card Number'
                                     pattern='[\d| ]{16,22}'
-                                    required onChange={this.handleInputChange}
+                              
                                     onFocus={this.handleInputFocus} />{' '}
                             </div>{' '}
                             < div className='form-group' >
@@ -152,7 +152,7 @@ export default class App extends React.Component {
                                     name='name'
                                     className='frm-ctrl'
                                     placeholder='Name'
-                                    required onChange={this.handleInputChange}
+                                   
                                     onFocus={this.handleInputFocus} />{' '}
                             </div>{' '}
                             <div className='form-group' >
@@ -160,8 +160,8 @@ export default class App extends React.Component {
                                     name='expiry'
                                     className='frm-ctrl'
                                     placeholder='Valid Thru'
-                                    pattern='\d\d/\d\d'
-                                    required onChange={this.handleInputChange}
+                                    pattern='\dd/d\d'
+                                    
                                     onFocus={this.handleInputFocus}
                                 />{' '}
                             </div>{' '}
@@ -171,7 +171,7 @@ export default class App extends React.Component {
                                     className='frm-ctrl cvc'
                                     placeholder='CVC'
                                     pattern='\d{3,4}'
-                                    required onChange={this.handleInputChange}
+                                   
                                     onFocus={this.handleInputFocus} />{' '}
                             </div>{' '}
                             <input type='hidden'
@@ -188,7 +188,7 @@ export default class App extends React.Component {
                     </div>{' '}
                 </div>{' '}
                 <div className='columnTwo' >
-                    <h3 > Swadeshi Airlines </h3>{' '}
+                    <h3 > MY BUS </h3>{' '}
                     <div>
                         <p> BOOKING DETAILS </p>{' '}
                         <div className='row' >

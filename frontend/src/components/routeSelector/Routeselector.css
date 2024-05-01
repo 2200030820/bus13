@@ -2,8 +2,8 @@
     margin-left: -15px;
     height: auto;
     width: auto;
-    border: 1px solid #00acee;
-    background-color: #00abeeb0;
+    border: 1px solid #f1f73f;
+    background-color: #e4e44cb0;
 }
 
 .dropdown:hover>.dropdown-menu {
@@ -42,7 +42,7 @@ select.selectpicker {
     border: none;
 }
 .btn-new {
-    background-color: rgb(68, 141, 214);
+    background-color: rgb(225, 226, 164);
 }
 input{
     margin-right:10px;

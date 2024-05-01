@@ -17,7 +17,7 @@ export default class App extends React.Component {
 
                 <div className="column3" >
                     <div className="seatInfo">
-                    <p class="new">SWADESHI AIRLINES</p>
+                    <p class="new">MY BUS</p>
                     <center>
                     <div className="cen">
                         <form >
@@ -67,15 +67,15 @@ export default class App extends React.Component {
                         <br/>
                         <center>
                             <br/>
-                        <p class="te">EMAIL: swadesiairlines@gmail.com</p>
+                        <p class="te">EMAIL: SDP-12-09@gmail.com</p>
                     <p class="te">CONTACT NUMBER: 9677934637</p>
-                    <p class="te">ADDRESS:91-Z/19,DELHI,110001 </p>
+                    <p class="te">KL UNIVERSITY </p>
                     </center>
                         </center>
                         <br/><br/>
                         <p className='bo'>If you need any information send mail</p>
 
-        <a href="mailto:harishramaraj13@gmail.com" className='bo'>Report via mail</a><br></br>
+        <a href="mailto:SDP-12-09@gmail.com" className='bo'>Report via mail</a><br></br>
                         
                         
                     </div>

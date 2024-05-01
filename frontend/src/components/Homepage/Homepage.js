@@ -9,7 +9,7 @@ export default function Homepage({ history }) {
     return (
         <div className='container maint-cnt'>
             <div className="header-nav">
-                <span className="mytext1"> Swadeshi Airlines </span>
+                <span className="mytext1"> MY BUS </span>
             </div>
             
             <div className="">
@@ -18,10 +18,10 @@ export default function Homepage({ history }) {
             <div className="container">
                 <div className="slogan">
                     <h1>
-                        <span className='word4' >Always Travel</span>
+                        <span className='word4' >THANKYOU FOR</span>
                         <div className="message">
-                            <div className="word1">with our own </div>
-                            <div className="word2">for our own</div>
+                            <div className="word1">CHOOSING US </div>
+                            <div className="word2">TEAM-SDP-09-12</div>
                             {/* <div className="word3">by our own</div> */}
                         </div>
                     </h1>

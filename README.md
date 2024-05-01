@@ -118,7 +118,7 @@ Follow the following steps to get development environment running.
 * Install node modules #even though they are pre-installed run this command to check if they are up to date
 
    ```bash
-   cd SWADESHI AIRLINES
+   cd MY BUS
    cd frontend
    npm install
    cd..

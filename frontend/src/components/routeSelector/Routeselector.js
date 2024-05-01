@@ -46,63 +46,25 @@ export default function Routeselector() {
                 <form className="form-inline" onSubmit={e => getRoutes(e)}>
                     <select name="ad_account_selected" data-style="btn-new" class="selectpicker" onChange={e => { handleFromCity(e) }}>
                         <option>FROM</option>
+                        <option>Guntur</option>
+                        <option>Vijayawada</option>
+                        <option>Hyderabad</option>
                         <option>Chennai</option>
                         <option>Bangalore</option>
-                        <option>Coimbatore</option>
-                        <option>Goa</option>
-                        <option>Delhi</option>
                         <option>Mumbai</option>
-                        <option>Kolkata</option>
-                        <option>Trivandram</option>
-                        <option>Madurai</option>
-                        <option>Cochin</option>
-                        <option>Pune</option>
-                        <option>Hyderabad</option>
-                        <option>Dehradun</option>
-                        <option>Jaipur</option>
-                        <option>Varanasi</option>
-                        <option>Patna</option>
-                        <option>Agra</option>
-                        <option>Kanpur</option>
-                        <option>Lucknow</option>
-                        <option>Indore</option>
-                        <option>Nagpur</option>
-                        <option>Vadodara</option>
-                        <option>Thane</option>
-                        <option>Bhopal</option>
-                        <option>Surat</option>                        
-                        <option>Nashik</option>
+                        
 
 
                     </select>
                     <select name="ad_account_selected" data-style="btn-new" class="selectpicker" onChange={e => { handleToCity(e) }}>
                         <option>TO</option>
+                        <option>Guntur</option>
+                        <option>Vijayawada</option>
                         <option>Hyderabad</option>
-                        <option>Coimbatore</option>
-                        <option>Vishakapatnam</option>
+                        <option>Chennai</option>
                         <option>Bangalore</option>
-                        <option>Chenai</option>
-                        <option>Delhi</option>
                         <option>Mumbai</option>
-                        <option>Kolkata</option>
-                        <option>Trivandram</option>
-                        <option>Madurai</option>
-                        <option>Cochin</option>
-                        <option>Pune</option>                        
-                        <option>Dehradun</option>
-                        <option>Jaipur</option>
-                        <option>Varanasi</option>
-                        <option>Patna</option>
-                        <option>Agra</option>
-                        <option>Kanpur</option>
-                        <option>Lucknow</option>
-                        <option>Indore</option>
-                        <option>Nagpur</option>
-                        <option>Vadodara</option>
-                        <option>Thane</option>
-                        <option>Bhopal</option>
-                        <option>Surat</option>                        
-                        <option>Nashik</option>
+                        
                     </select>
                     <input onChange={e => { handleDate(e) }} type="date"></input>
                     <input type="submit" className=" btn btn-primary btn-md getRoute" />
